@@ -1,0 +1,18 @@
+package com.form;
+
+import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.TextField;
+import org.apache.wicket.model.Model;
+
+public class MyForm extends Form {
+	private TextField name;
+	private TextField street;
+	public MyForm(String id) {
+		super(id);
+		name=new TextField("name",new Model(""));
+		street=new TextField("street",new Model(""));
+		add(name);
+		add(street);
+	}
+
+}

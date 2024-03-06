@@ -1,0 +1,16 @@
+package com.submitformDataUsingLinks;
+
+import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.markup.html.form.Form;
+
+public class HomePage extends WebPage {
+	Form form=new Form("form") {
+		protected void onSubmit() {
+			System.out.println("form is called");
+		}
+	};
+	public HomePage() {
+		add(form);
+		form.add(childs);
+	}
+}

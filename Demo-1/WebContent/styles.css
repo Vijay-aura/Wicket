@@ -1,0 +1,96 @@
+@charset "ISO-8859-1";
+
+body {
+	background-color: rgb(216, 216, 216);
+}
+
+label {
+	margin-right: 10px;
+}
+.contianer {
+	border: 1px solid black;
+	margin: 10px;
+	background-color: rgb(203, 195, 227);
+	height: 350px;
+	border-radius: 20px;
+	width: 600px;
+}
+.for-body{
+	justify-content: center;
+}
+.header {
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.flex-container {
+	justify-content: center;
+	margin-bottom: 40px;
+}
+
+.flex-prop {
+	display: flex;
+}
+
+.flex-end {
+	justify-content: flex-end;
+}
+
+.bottom {
+	margin-bottom: 10px;
+}
+
+.inputs {
+	height: 20px;
+}
+
+.dropdowns {
+	height: 25px;
+	width: 174px;
+}
+
+.left {
+	flex-direction: column;
+}
+
+.right {
+	flex-direction: column;
+	margin-left: 20px;
+}
+
+.margin-need {
+	margin-left: 8px;
+}
+
+.terms {
+	justify-content: center;
+	margin-bottom: 15px;
+}
+
+.for-link {
+	text-decoration: none;
+	color: maroon;
+}
+
+.submit {
+	background-color: green;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	height: 30px;
+	width: 60px;
+	padding: 5px 10px;
+	cursor: pointer;
+}
+
+.for-submit {
+	justify-content: center;
+}
+.error-message{
+	justify-content: center;
+	height: 30px;
+}
+.for-error{
+	margin:0px;
+	color:red;
+}

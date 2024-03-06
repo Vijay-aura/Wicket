@@ -1,0 +1,19 @@
+@charset "ISO-8859-1";
+.flex-prop{
+	display: flex;
+}
+.flex-container{
+	flex-direction: column;
+}
+.flex-email >div{
+	margin-left: 8px;
+}
+.flex-name-first >div{
+	margin-left: 8px;
+}
+.flex-name-last{
+	margin-left: 15px;
+}
+.flex-name-last >div{
+	margin-left: 8px;
+}

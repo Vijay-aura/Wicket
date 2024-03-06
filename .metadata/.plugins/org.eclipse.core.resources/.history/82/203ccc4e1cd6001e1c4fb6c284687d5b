@@ -1,0 +1,15 @@
+package com.model;
+
+import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.model.PropertyModel;
+
+public class CompoundPropertyModel extends WebPage {
+	public CompoundPropertyModel() {
+		Person person=new Person("Some","SomeSurname");
+		
+		Label label=new Label("name",new PropertyModel(person,"surname" ));
+		add(label);
+		
+	}
+}

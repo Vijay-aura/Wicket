@@ -1,0 +1,33 @@
+package com.form;
+
+import org.apache.wicket.markup.html.WebMarkupContainer;
+import org.apache.wicket.markup.html.WebPage;
+import org.apache.wicket.markup.html.basic.Label;
+import org.apache.wicket.markup.html.form.Button;
+import org.apache.wicket.markup.html.form.Form;
+import org.apache.wicket.markup.html.form.TextField;
+import org.apache.wicket.model.PropertyModel;
+
+public class InputFieldsPage extends WebPage {
+	Person person=new Person();
+	Form form=new Form("form");
+	private Label label;
+	private WebMarkupContainer container=new WebMarkupContainer("detailsContainer");
+	public InputFieldsPage() {
+		add(form);
+		add(container);
+		final TextField<String> nameField=new TextField("name",new PropertyModel(person, "name"));
+		form.add(nameField);
+		form.add(new Button("button") {
+			@Override
+			public void onSubmit() {
+				form.setVisible(false);
+				label.setDefaultModelObject(person);
+				container.add(label);
+				container.setVisible(true);
+			}
+		});
+		container.setVisible(false);
+		
+	}
+}

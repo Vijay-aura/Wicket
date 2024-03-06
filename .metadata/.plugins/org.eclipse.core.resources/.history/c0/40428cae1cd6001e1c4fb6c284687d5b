@@ -1,0 +1,12 @@
+package com.model;
+
+import org.apache.wicket.markup.html.WebPage;
+
+public class CompoundPropertyModel extends WebPage {
+	public CompoundPropertyModel() {
+		Person person=new Person("Some","SomeSurname");
+		setDefaultModelObject(new CompoundPropertyModel(person));
+		
+		
+	}
+}

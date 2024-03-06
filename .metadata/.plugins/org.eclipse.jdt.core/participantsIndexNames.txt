@@ -1,0 +1,5 @@
+INDEX VERSION 1.131
+D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2209060939.index
+\HelloWorld-1\src\main\resources
+D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1268432136.index
+\wicket-practice\src\main\resources

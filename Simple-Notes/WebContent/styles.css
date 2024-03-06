@@ -1,0 +1,30 @@
+@charset "ISO-8859-1";
+
+.flex{
+	display:flex;
+}
+.body{
+	justify-content: center;
+}
+.container{
+	flex-direction: column;
+	border: 1px solid;
+}
+.submit{
+	justify-content: flex-end;
+}
+.for-notes{
+	height:10rem;
+	width: 30rem;
+	margin-bottom: 0.8rem;
+}
+.header{
+	justify-content: center;
+}
+.button{
+	border: none;
+	background-color: green;
+	color: white;
+	height: 1rem;
+	width: 1rem;
+}
