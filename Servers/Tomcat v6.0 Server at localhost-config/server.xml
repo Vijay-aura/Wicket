@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="wicket-practice" path="/wicket-practice" reloadable="true" source="org.eclipse.jst.j2ee.server:wicket-practice"/></Host>
+      <Context docBase="Assignment-2" path="/Assignment-2" reloadable="true" source="org.eclipse.jst.jee.server:Assignment-2"/></Host>
     </Engine>
   </Service>
 </Server>

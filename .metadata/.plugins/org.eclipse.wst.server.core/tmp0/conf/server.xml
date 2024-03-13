@@ -131,7 +131,7 @@
                prefix="localhost_access_log." suffix=".txt" pattern="common" resolveHosts="false"/>
         -->
 
-      <Context docBase="D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\wicket-practice" path="/wicket-practice" reloadable="true" source="org.eclipse.jst.j2ee.server:wicket-practice"/></Host>
+      <Context docBase="D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\ROOT" path="" reloadable="false"/><Context docBase="D:\NewCheckouts\PromentorCP\.metadata\.plugins\org.eclipse.wst.server.core\tmp0\wtpwebapps\Assignment-2" path="/Assignment-2" reloadable="true" source="org.eclipse.jst.jee.server:Assignment-2"/></Host>
     </Engine>
   </Service>
 </Server>
